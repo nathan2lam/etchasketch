@@ -1,1 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    border: black solid 4px;
+    gap: 1px;
+}
+.cube{
+    background-color: lightgrey;
+    flex: 1;
+}
+.row{
+    display: flex;
+    flex: 1;
+    gap: 1px;
+}
+#reset{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#clear{
+    margin-bottom: 40px;
+}
 
